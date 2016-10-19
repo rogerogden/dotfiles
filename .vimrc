@@ -48,6 +48,8 @@ syntax on
 set cursorline
 " Make tabs as wide as two spaces
 set tabstop=2
+" Make the '>' command shift things 2 characters
+set shiftwidth=2
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
